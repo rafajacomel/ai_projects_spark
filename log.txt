@@ -1,0 +1,86 @@
+starting nasa report....
+reading file access_log_Aug95...
+reading file access_log_Jul95...
+merging files access_log_Aug95 and access_log_Jul95....
+creating view with all data...
+
+Calculating numbers of distinct hosts...
+----------------------------------------
+Number of distinct hosts analyzed: 137749
+
+Calculating numbers of 404 errors...
+------------------------------------
+Number of 404 errors: 20187
+
+Calculating 5 hosts with higher ammount of 404 errors...
+--------------------------------------------------------
+Number of 404 errors for url /pub/winvn/readme.txt: 2003
+Number of 404 errors for url /pub/winvn/release.txt: 1732
+Number of 404 errors for url /shuttle/missions/STS-69/mission-STS-69.html: 682
+Number of 404 errors for url /shuttle/missions/sts-68/ksc-upclose.gif: 426
+Number of 404 errors for url /history/apollo/a-001/a-001-patch-small.gif: 384
+
+Calculating 404 errors per day...
+---------------------------------
+Number of 404 errors for day 02/Jul/1995: 277
+Number of 404 errors for day 21/Aug/1995: 302
+Number of 404 errors for day 06/Aug/1995: 364
+Number of 404 errors for day 16/Jul/1995: 252
+Number of 404 errors for day 07/Aug/1995: 514
+Number of 404 errors for day 11/Aug/1995: 255
+Number of 404 errors for day 27/Jul/1995: 328
+Number of 404 errors for day 07/Jul/1995: 554
+Number of 404 errors for day 17/Jul/1995: 395
+Number of 404 errors for day 15/Jul/1995: 249
+Number of 404 errors for day 18/Jul/1995: 452
+Number of 404 errors for day 26/Jul/1995: 314
+Number of 404 errors for day 03/Aug/1995: 290
+Number of 404 errors for day 18/Aug/1995: 243
+Number of 404 errors for day 17/Aug/1995: 259
+Number of 404 errors for day 14/Aug/1995: 277
+Number of 404 errors for day 10/Jul/1995: 377
+Number of 404 errors for day 04/Jul/1995: 331
+Number of 404 errors for day 20/Aug/1995: 308
+Number of 404 errors for day 20/Jul/1995: 417
+Number of 404 errors for day 24/Aug/1995: 416
+Number of 404 errors for day 27/Aug/1995: 369
+Number of 404 errors for day 13/Aug/1995: 202
+Number of 404 errors for day 15/Aug/1995: 319
+Number of 404 errors for day 28/Jul/1995: 88
+Number of 404 errors for day 25/Aug/1995: 406
+Number of 404 errors for day 12/Jul/1995: 448
+Number of 404 errors for day 06/Jul/1995: 619
+Number of 404 errors for day 22/Aug/1995: 284
+Number of 404 errors for day 08/Aug/1995: 372
+Number of 404 errors for day 22/Jul/1995: 177
+Number of 404 errors for day 01/Jul/1995: 300
+Number of 404 errors for day 23/Jul/1995: 222
+Number of 404 errors for day 21/Jul/1995: 320
+Number of 404 errors for day 23/Aug/1995: 330
+Number of 404 errors for day 19/Aug/1995: 201
+Number of 404 errors for day 24/Jul/1995: 316
+Number of 404 errors for day 26/Aug/1995: 361
+Number of 404 errors for day 31/Aug/1995: 513
+Number of 404 errors for day 28/Aug/1995: 397
+Number of 404 errors for day 04/Aug/1995: 338
+Number of 404 errors for day 12/Aug/1995: 192
+Number of 404 errors for day 30/Aug/1995: 557
+Number of 404 errors for day 19/Jul/1995: 620
+Number of 404 errors for day 05/Aug/1995: 226
+Number of 404 errors for day 08/Jul/1995: 292
+Number of 404 errors for day 09/Jul/1995: 334
+Number of 404 errors for day 01/Aug/1995: 240
+Number of 404 errors for day 25/Jul/1995: 452
+Number of 404 errors for day 05/Jul/1995: 479
+Number of 404 errors for day 11/Jul/1995: 448
+Number of 404 errors for day 29/Aug/1995: 405
+Number of 404 errors for day 13/Jul/1995: 514
+Number of 404 errors for day 16/Aug/1995: 251
+Number of 404 errors for day 09/Aug/1995: 266
+Number of 404 errors for day 10/Aug/1995: 309
+Number of 404 errors for day 14/Jul/1995: 392
+Number of 404 errors for day 03/Jul/1995: 454
+
+Calculating total ammount of bytes returned...
+----------------------------------------------
+Sum of total returned bytes: 65142604865
