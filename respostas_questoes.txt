@@ -1,0 +1,23 @@
+Qual o objetivo do comando cache em Spark?
+------------------------------------------
+O comando cache tem como objetivo armazenar dados para que sejam utilizados mais vezes.
+
+O mesmo código implementado em Spark é normalmente mais rápido que a implementação equivalente em MapReduce. Por quê?
+---------------------------------------------------------------------------------------------------------------------
+Spark é mais rápido porque consegue rodar em memória não precisando de acesso a disco.
+
+Qual é a função do SparkContext?
+--------------------------------
+é o portão de entrada da funcionalidade Apache Spark. A etapa mais importante de qualquer aplicativo de driver 
+Spark é gerar o SparkContext. Permite que seu aplicativo Spark acesse o Spark Cluster com a ajuda do Resource Manager.
+
+Explique com suas palavras o que é Resilient Distributed Datasets (RDD)
+------------------------------------------------------------------------
+RDD é uma estrutura de dados fundamental do Spark. É uma coleção imutável de objetos distribuídos. 
+Cada conjunto de dados no RDD é dividido em partições lógicas, que podem ser computadas em diferentes nós do cluster.
+Os RDDs podem conter qualquer tipo de objetos Python, Java ou Scala, incluindo classes definidas pelo usuário
+
+GroupByKey é menos eficiente que reduceByKey em grandes dataset. Por quê?
+-------------------------------------------------------------------------
+O exemplo educeByKey funciona muito melhor em um grande conjunto de dados. wwww
+Isso ocorre porque o Spark sabe que pode combinar a saída com uma chave comum em cada partição antes de embaralhar os dados.
