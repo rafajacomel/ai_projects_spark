@@ -15,9 +15,12 @@ Explique com suas palavras o que é Resilient Distributed Datasets (RDD)
 ------------------------------------------------------------------------
 RDD é uma estrutura de dados fundamental do Spark. É uma coleção imutável de objetos distribuídos. 
 Cada conjunto de dados no RDD é dividido em partições lógicas, que podem ser computadas em diferentes nós do cluster.
-Os RDDs podem conter qualquer tipo de objetos Python, Java ou Scala, incluindo classes definidas pelo usuário
+Os RDDs podem conter qualquer tipo de objetos Python, Java ou Scala, incluindo classes definidas pelo usuário.
 
 GroupByKey é menos eficiente que reduceByKey em grandes dataset. Por quê?
 -------------------------------------------------------------------------
-O exemplo educeByKey funciona muito melhor em um grande conjunto de dados. wwww
-Isso ocorre porque o Spark sabe que pode combinar a saída com uma chave comum em cada partição antes de embaralhar os dados.
+ReduceByKey funciona muito melhor em um grande conjunto de dados. Isso ocorre porque o Spark combina a saída com uma chave comum em cada partição antes de fazer o merge dos dados.
+
+Explique o que o código Scala abaixo faz.
+----------------------------------------
+O codigo scala cona o numero de palavras em um determinado texto. Considerando alavra qualquer caracter separdo por espaço.
