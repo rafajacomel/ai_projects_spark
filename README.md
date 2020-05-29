@@ -1,4 +1,4 @@
-Desafio semantix
+Spark examples
 ----------------
 Desafio proposto pela empresa semantix para gerar um report sobre dados da nasa
 
